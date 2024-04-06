@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form-2</title>
+  </head>
+  <body>
+    <form action="https://www.google.com/" method="post">
+      <input type="text" placeholder="Enter your name" name="name"  required />
+      <br />
+      <br />
+      <input type="text" placeholder="Enter your lastname"  required /><br />
+      <br />
+      <input type="number" placeholder="Enter your salary" name="salary" />
+      <br />
+      <br />
+      <input type="email" placeholder="Enter your email" name="email" required /><br />
+      <br />
+      <input
+        type="password"
+        placeholder="Enter your password"
+        name="password"
+        required
+        minlength="5"
+        maxlength="12"
+
+
+      /><br /><br />
+      <input type="tel" placeholder="Enter your phone number" name="phone" />
+      <br />
+      <br />
+      <input type="search" placeholder="search something" name="search" />
+      <br />
+      <br />
+      <input type="url" placeholder="Enter your url" name="website" /> <br />
+      <br />
+
+      <input type="hidden" name="code" /><br />
+
+      <input type="radio" id="male" name="gender" />
+      <label for="male">Erkek</label>
+
+      <input type="radio" id="female" name="gender" />
+      <label for="female">Kadin</label>
+
+      <input type="radio" id="id-dnt-say" name="gender" />
+      <label for="id-dnt-say">I don't say</label><br />
+
+      <input type="checkbox" id="chk" name="chk-name" />
+      <label for="chk">Maasimi eksiksiz aldim</label>
+
+      <input type="checkbox" id="chk -box" checked name="chk-maas" />
+      <label for="chk-box">Maasimi almadim </label> <br /><br />
+      <input type="file" name="cv" /> <br />
+      <br />
+      <input type="color" name="cl" id="cl" /> <br />
+      <br />
+
+      <input type="range" name="rang" /><br />
+      <input type="date" name="date" id="date" /> <br /><br />
+      <input type="datetime-local" name="dtl" id="dtl" /> <br />
+      <br />
+      <input type="time" name="time" /> <br />
+      <br />
+
+      <input type="week" name="week" /> <br />
+      <br />
+      <input type="month" name="mnth" /> <br />
+      <br />
+
+      <select name="cities" id="cities" multiple size="8">
+        <option value="choose">choose your city</option>
+        <option value="58">Sivas</option>
+        <option value="06">Ankara</option>
+        <option value="61">Trabzon</option>
+        <option value="08">Artvin</option>
+        <option value="69">Bayburt</option>
+        <option value="57">Sinop</option>
+        <option value="28">Giresun</option>
+        <option value="65">Van</option>
+        <option value="27">Gaziantep</option>
+        <option value="36">Kars</option>
+        <option value="47">Mardin</option>
+        <option value="37">Kastamonu</option>
+      </select>
+
+      <br />
+      <br />
+
+      <textarea name="txt" id="txt" cols="30" rows="12"></textarea>
+
+      <br />
+      <br />
+
+      <input type="button" value="Save" />
+      <input type="submit" value="Send" />
+      <input type="reset" value="Clear" />
+      <button class="btn">Cancel</button>
+
+    </form>
+
+  </body>
+</html>
